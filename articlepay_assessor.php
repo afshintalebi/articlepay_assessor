@@ -1,7 +1,12 @@
 <?php
 
 /**
-* @Copyright Copyright (C) 2014 - AfshinTalebi.com
+ * Articlepay_Assessor entry point
+ *
+ * @package Articlepay_Assessor
+ * @subpackage plugin
+* @link https://github.com/afshintalebi/articlepay_assessor
+ * @license GNU/GPL version 3
 **/
 defined ( '_JEXEC' ) or die ( 'Restricted access' );
 jimport ( 'joomla.event.plugin' );
@@ -21,8 +26,8 @@ class plgContentArticlepay_assessor extends JPlugin {
 	 * Plugin that checking user is payed cost of article 
 	 *
 	 * @param string $context The context of the content being passed to the plugin.
-	 * @param mixed &$row An object with a "text" property or the string to be cloaked.
-	 * @param mixed &$params Additional parameters. See {@see PlgContentEmailcloak()}.
+	 * @param mixed &$row An object with a "text" property .
+	 * @param mixed &$params Additional parameters.
 	 * @param integer $page Optional page number. Unused. Defaults to zero.
 	 *
 	 * @return boolean True on success.

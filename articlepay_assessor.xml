@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="plugin" group="content" method="install">
 	<name>ArticlePay Assessor</name>
-	<creationDate>Oct 2014</creationDate>
-	<license>GNU GPL</license>
+	<creationDate>Dec 2014</creationDate>
+	<license>GNU General Public License version 3</license>
 	<author>Afshin Talebi</author>
 	<authorUrl>http://www.afshintalebi.com</authorUrl>
 	<version>1.0</version>
